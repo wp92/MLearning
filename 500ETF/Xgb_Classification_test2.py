@@ -276,7 +276,7 @@ if __name__ == "__main__":
     param_xgbnumround=100  #局部最优
     ################################################################################################
     fileloc='/root/Documents/MLonETF/500ETF/'
-    #fileloc='C:\\Users\\wangmeng\\Desktop\\FZQuant\\QuantResearch\\MLonETF\\500ETF\\'
+  
     #fileloc='E:\\FZQuant\\QuantResearch\\MLonETF\\500ETF\\'
     datafile='alldata20190626_V2.csv'
     alldata=pd.read_csv(fileloc+datafile).sort_values(by=['tradeDate', 'secID'], axis=0, ascending=True).set_index(['tradeDate', 'secID'])
