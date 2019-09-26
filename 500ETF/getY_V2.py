@@ -321,7 +321,7 @@ if __name__ == "__main__":
     params_yset={'gapnum':params_lnrate['gapnum'], 'yfrom':'all'}
     params_ygroups=3
     ####################################################读取csv中必备数据############################################
-    fileloc='C:\\Users\\wangmeng\\Desktop\\FZQuant\\QuantResearch\\MLonETF\\500ETF\\'
+    fileloc='C:\\User\\shixi'
     pvfile='510500_20190619.csv'
     pvs=pd.read_csv(fileloc+pvfile).sort_values(by=['datetime', 'secID'], axis=0, ascending=True).rename(columns={'datetime':'tradeDate'}).set_index(['tradeDate', 'secID'])
     del fileloc, pvfile
