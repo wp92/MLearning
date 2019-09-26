@@ -67,8 +67,6 @@ if __name__ == "__main__":
     ################################################################################################################
     ####################################################读取数据####################################################
     fileloc='/root/Documents/MLonETF/500ETF/'
-    #fileloc='C:\\Users\\wangmeng\\Desktop\\FZQuant\\QuantResearch\\MLonETF\\500ETF\\'
-    #fileloc='E:\\FZQuant\\QuantResearch\\MLonETF\\500ETF\\'
     ratefile='lnrate20190625_V2.csv'
     yfile='yset20190625_V2.csv'
     factorfile='features20190622.csv'
